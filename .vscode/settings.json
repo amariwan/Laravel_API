@@ -1,0 +1,23 @@
+{
+   "DockerRun.DisableDockerrc": true,
+   "emeraldwalk.runonsave": {
+      "commands": [
+         {
+            "match": ".*",
+            "isAsync": true,
+            "cmd": "docker-compose up -d"
+         },
+      ]
+   },
+   "DockerRun.Containers": [
+      "185ddfaccea6",
+      "6753a529381b",
+      "99253120c8f1",
+      "0c4556599bbc",
+      "ef820a324a93",
+      "3509e074604e",
+      "895870cc451c",
+      "0878b1a9a842"
+   ]
+}
+// docker-compose down &&
